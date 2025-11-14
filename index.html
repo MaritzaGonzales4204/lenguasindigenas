@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My website wa</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class= "topheader">
+      <a href="" class= "logo">
+        <img width="100" height="70" src="imagens/yachay.jpg" alt=""/>
+      </a>
+
+      <ul class= "Menu-Horizontal">
+        <li><a href="">Productos</a></li>
+        <li>
+          <a href="">Promociones</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Tarjeta Credito</a></li>
+            <li><a href="">Tarjeta Debito</a></li>
+            <li><a href="">Beneficios Viaje</a></li>
+            <li><a href="">Plin</a></li>
+          </ul>
+        </li>
+        <li><a href="">Zona Digital</a></li>
+        <li><a href="#contactanos">Contactanos</a></li>
+
+      <ul>
+    </nav>
+    <!--seccion productos-->
+    <section class="seccion-productos">
+      <div class="div-general-productos">
+        <div class="div-prod-text">
+          <h2>Seccion Producto</h2>
+          <p>
+            YachayApp es la herramienta ideal para quienes desean aprender lenguas originarias.
+            Con un enfoque interactivo y el uso de realidad aumentada, te acercamos a nuestras
+            tradiciones y cultura.
+          </p>
+          <button>Mas Info...</button>
+        </div>
+        <div class="div-prod-img">
+          <img src="imagens/quechua.jpg" class="img-salto" alt="Imagen Quechua">
+        </div>
+      </div>
+
+    <!--seccion zona digital-->
+    <section class="seccion-zondig">
+      <div class="div-general-zondig">
+        <div class="div-zondig-text">
+          <h3>Seccion Zona Digital</h3>
+          <p>
+            Ingresa a la Aplicación y selecciona el idioma que más te interese, el nivel y los recursos que quieres utilizar. Explora y utiliza todos los recursos que YachayApp te ofrece. Visualiza todo el progreso que vas teniendo en la lengua de tu elección.
+          </p>
+        </div>
+          <div class="div-zondig-video">
+            <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/Y0qELXQQ06k?si=kFW83y9z5HXUa7TQ" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen></iframe>
+          </div>
+      </div>
+    </section>
+ <!--seccion formulario-->
+    <section class="seccion-formulario" id="contactanos">
+      <div class="div-cont-formulario">
+        <h2>Formulario:</h2>
+        <p>Complete todos los campos...</p>
+        <form class="formulario">
+          <!--INPUT:TEXT-->
+          <div class="campo">
+            <label for="nombre">Nombres Completos:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese sus nombres"></input>
+          </div>
+          <!--INPUT:DESPLEGABLE-->
+          <div class="campo">
+            <label for="nombres">Pais:</label>
+            <select id="pais"name="pais">
+              <option value="peru">Peru</option>
+              <option value="colombia">Colombia</option>
+              <option value="argentina">Argentina</option>
+              <option value="mexico">Mexico</option>
+            </select>
+          </div>
+          <!--INPUT:CHECKBOX-->
+          <div class="campo">
+            <label>Tipo Usuario:</label>
+            <ul class="lista-checkbox">
+              <li><label><input type="radio"name="tipo"value="a">Alumno</label></li>
+              <li><label><input type="radio"name="tipo"value="b">Docente</label></li>
+              <li><label><input type="radio"name="tipo"value="c">Turista</label></li>
+              <li><label><input type="radio"name="tipo"value="c">Otros</label></li>
+            </ul>
+          </div>
+          <!--RADIO-->
+          <div class="campo">
+            <label>Sexo:</label>
+            <ul class="lista-radio">
+              <li><label><input type="radio"name="sexo"value="f">Femenino</label></li>
+              <li><label><input type="radio"name="sexo"value="m">Masculino</label></li>
+            </ul>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-brand">
+            <img
+              src="imagens/yachay.jpg"
+              alt="Logo YachayApp"
+              class="footer-logo"
+            />
+            <p>**YachayApp**</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Términos y Condiciones</a>
+            <a href="/Documento/obtenerDocumento.pdf">Protección de Datos</a>
+          </div>
+
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
+
