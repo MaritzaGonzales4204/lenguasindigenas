@@ -31,6 +31,8 @@
   position: absolute;
   display: none;
   width: 150px;
+  background-color: #e0e0e0; /* Fondo un poco más oscuro */
+  border: 1px solid #ccc; /* Opcional: añade un borde */
 }
 
 .Menu-Horizontal li a:hover {
